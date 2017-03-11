@@ -1,0 +1,15 @@
+PODS:
+  - DRPLoadingSpinner (1.0.2)
+  - KVLoading (1.1)
+
+DEPENDENCIES:
+  - DRPLoadingSpinner
+  - KVLoading (~> 1.1)
+
+SPEC CHECKSUMS:
+  DRPLoadingSpinner: 2605661b840d61a365a35e36d13a9b648cf96c21
+  KVLoading: c5113f8e064f5db17b477906d9541a606e1765f1
+
+PODFILE CHECKSUM: f22ef0a71ed14ad9261dfaacd9b4a7ff629ffa76
+
+COCOAPODS: 1.2.0

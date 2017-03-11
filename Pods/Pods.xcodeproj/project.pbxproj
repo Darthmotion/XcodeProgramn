@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C7479428876B48F1AFD46EF66811DF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		2D89B95E4CACA97480F25E5D6A7BD039 /* DRPLoadingSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 23503F8B547A806A7108F50B373C3C12 /* DRPLoadingSpinner.m */; };
+		41001C5FC7F12E3305D90B7CB5572E39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		44D99EDC6922F7473CAD7A3952C60FA5 /* KVLoading-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8246F2425FF7DD29080B54E7B3EBA04F /* KVLoading-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59FB981D8754F9C98969F477AFD69BC0 /* KVLoading-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6EA2A5047A45CF99C34FA22342C17A /* KVLoading-dummy.m */; };
+		6CA44E5D1D9DD85F9DAADABD0F66AACC /* DRPLoadingSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6FD757095EFCCAE31839436EFE618F /* DRPLoadingSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		842E967CC936A32169050B8BD5773D75 /* Pods-cocoapodsapp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 791DC48FF52AF3B04E7D9CD71CA7BDDF /* Pods-cocoapodsapp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FA322BF5075259076CD56678370A7CF /* DRPRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F61AFA1D3BABA25833B8F7BE166CCCF2 /* DRPRefreshControl.m */; };
+		9FEA4AC7189651F7A83E5680C47857B8 /* DRPRefreshControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8109C02DABCA27DB151A1D63296474C9 /* DRPRefreshControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9D093B87CC6A6B6FA2FCEF40C1AB9D1 /* DRPLoadingSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F7D393518D35AC0B52B74BFE1C83FB /* DRPLoadingSpinner-dummy.m */; };
+		B27AE856E131E525655A11DE6B4FA1B4 /* DRPLoadingSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = AD59F114830E93BB2F077987EC302997 /* DRPLoadingSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF474E4395D029B42CE4FE99CA6D618A /* Pods-cocoapodsapp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7CD9A8F9F7F95CA19BA0CA96F47750 /* Pods-cocoapodsapp-dummy.m */; };
+		E4D7E83601B7806199FE9A37EDBE5279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E57A6F6036388A1131D7038C915723E9 /* KVLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 260B2D0D6A143DB34878DBE53C7F6303 /* KVLoading.swift */; };
+		FF7A9AC1A0D3F95A93C25D4D1AE92785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AA8C78DCB3555F13EE4F199E8153318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9D49E8ACEA8497269F8880B990BA347;
+			remoteInfo = KVLoading;
+		};
+		96957CEEA90B8AC1F9F58CBA1CBD5BB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10C34A98163922DD37D18B038C39A105;
+			remoteInfo = DRPLoadingSpinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F7CD9A8F9F7F95CA19BA0CA96F47750 /* Pods-cocoapodsapp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cocoapodsapp-dummy.m"; sourceTree = "<group>"; };
+		1BD6E9DA565F288313510392C900C6A5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E494B58A303758D100EBE3EA73D39C8 /* Pods_cocoapodsapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cocoapodsapp.framework; path = "Pods-cocoapodsapp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23503F8B547A806A7108F50B373C3C12 /* DRPLoadingSpinner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPLoadingSpinner.m; path = src/DRPLoadingSpinner.m; sourceTree = "<group>"; };
+		260B2D0D6A143DB34878DBE53C7F6303 /* KVLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KVLoading.swift; path = KVLoading/Classes/KVLoading.swift; sourceTree = "<group>"; };
+		2A686F3C0642F0CC12432C29CCD31E40 /* Pods-cocoapodsapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoapodsapp.debug.xcconfig"; sourceTree = "<group>"; };
+		2A6FD757095EFCCAE31839436EFE618F /* DRPLoadingSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRPLoadingSpinner-umbrella.h"; sourceTree = "<group>"; };
+		4199C8339757F2D4DCDCE8BFE92C4A51 /* KVLoading.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KVLoading.modulemap; sourceTree = "<group>"; };
+		50D1A1B7D6063ADA64AC516341AF9031 /* DRPLoadingSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRPLoadingSpinner.xcconfig; sourceTree = "<group>"; };
+		53BFEB8098C831085D76B9B550D8C2EC /* DRPLoadingSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRPLoadingSpinner.framework; path = DRPLoadingSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F7D393518D35AC0B52B74BFE1C83FB /* DRPLoadingSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRPLoadingSpinner-dummy.m"; sourceTree = "<group>"; };
+		5A010684AE3111BA41AB08B68C4C6ED0 /* KVLoading.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVLoading.xcconfig; sourceTree = "<group>"; };
+		5BD9BAE6BD8906A26756EEEBA26A109B /* KVLoading-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVLoading-prefix.pch"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6482C5BCB3E923FEFF3249FE61AB19F6 /* DRPLoadingSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRPLoadingSpinner-prefix.pch"; sourceTree = "<group>"; };
+		791DC48FF52AF3B04E7D9CD71CA7BDDF /* Pods-cocoapodsapp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cocoapodsapp-umbrella.h"; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8109C02DABCA27DB151A1D63296474C9 /* DRPRefreshControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPRefreshControl.h; path = src/DRPRefreshControl.h; sourceTree = "<group>"; };
+		8246F2425FF7DD29080B54E7B3EBA04F /* KVLoading-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVLoading-umbrella.h"; sourceTree = "<group>"; };
+		86B8AD5DC8F4BB45867DCAAFB1932730 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAF8C8E30964567A517FAEB6494CA59 /* Pods-cocoapodsapp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cocoapodsapp-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942757E6079840B0C9F75C471DC7003C /* Pods-cocoapodsapp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cocoapodsapp-frameworks.sh"; sourceTree = "<group>"; };
+		AD59F114830E93BB2F077987EC302997 /* DRPLoadingSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRPLoadingSpinner.h; path = src/DRPLoadingSpinner.h; sourceTree = "<group>"; };
+		B88711D7F9FDBF93B6C461C1B4181719 /* Pods-cocoapodsapp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-cocoapodsapp.modulemap"; sourceTree = "<group>"; };
+		BD512CAB6D6A902181CCBC8ADC935240 /* KVLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVLoading.framework; path = KVLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6EA2A5047A45CF99C34FA22342C17A /* KVLoading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVLoading-dummy.m"; sourceTree = "<group>"; };
+		D5B568D5388C0EF95E76B908CBE8BC53 /* Pods-cocoapodsapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoapodsapp.release.xcconfig"; sourceTree = "<group>"; };
+		D9FA5AF7B9AFC4359E5D5E8B174F5B5D /* Pods-cocoapodsapp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoapodsapp-acknowledgements.plist"; sourceTree = "<group>"; };
+		DAA614CA5473E9461137DF09EED96BF6 /* DRPLoadingSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DRPLoadingSpinner.modulemap; sourceTree = "<group>"; };
+		E3CEC4695446CC6FC76DB8498D4EB040 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E91C8F0CC5F2806D1A349A882DFC4193 /* Pods-cocoapodsapp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cocoapodsapp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F61AFA1D3BABA25833B8F7BE166CCCF2 /* DRPRefreshControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DRPRefreshControl.m; path = src/DRPRefreshControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D2D4FAD490241A1F99B2EFB2DD3503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7A9AC1A0D3F95A93C25D4D1AE92785 /* Foundation.framework in Frameworks */,
+				0C7479428876B48F1AFD46EF66811DF4 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6075C705EBE96896E43DF6E7B850B3A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D7E83601B7806199FE9A37EDBE5279 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2E8C71245853E37E00298AB0310EE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41001C5FC7F12E3305D90B7CB5572E39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204B907C0C068C3CD22AC7120DA0BCD8 /* Pods-cocoapodsapp */ = {
+			isa = PBXGroup;
+			children = (
+				E3CEC4695446CC6FC76DB8498D4EB040 /* Info.plist */,
+				B88711D7F9FDBF93B6C461C1B4181719 /* Pods-cocoapodsapp.modulemap */,
+				E91C8F0CC5F2806D1A349A882DFC4193 /* Pods-cocoapodsapp-acknowledgements.markdown */,
+				D9FA5AF7B9AFC4359E5D5E8B174F5B5D /* Pods-cocoapodsapp-acknowledgements.plist */,
+				0F7CD9A8F9F7F95CA19BA0CA96F47750 /* Pods-cocoapodsapp-dummy.m */,
+				942757E6079840B0C9F75C471DC7003C /* Pods-cocoapodsapp-frameworks.sh */,
+				8EAF8C8E30964567A517FAEB6494CA59 /* Pods-cocoapodsapp-resources.sh */,
+				791DC48FF52AF3B04E7D9CD71CA7BDDF /* Pods-cocoapodsapp-umbrella.h */,
+				2A686F3C0642F0CC12432C29CCD31E40 /* Pods-cocoapodsapp.debug.xcconfig */,
+				D5B568D5388C0EF95E76B908CBE8BC53 /* Pods-cocoapodsapp.release.xcconfig */,
+			);
+			name = "Pods-cocoapodsapp";
+			path = "Target Support Files/Pods-cocoapodsapp";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6413A1D4D0D4482AF160BD1FB89ED165 /* DRPLoadingSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				AD59F114830E93BB2F077987EC302997 /* DRPLoadingSpinner.h */,
+				23503F8B547A806A7108F50B373C3C12 /* DRPLoadingSpinner.m */,
+				8109C02DABCA27DB151A1D63296474C9 /* DRPRefreshControl.h */,
+				F61AFA1D3BABA25833B8F7BE166CCCF2 /* DRPRefreshControl.m */,
+				85D26B9726E7B5E9DC98D856D2D43660 /* Support Files */,
+			);
+			name = DRPLoadingSpinner;
+			path = DRPLoadingSpinner;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				886584244B75B7E21C8DC278C0B786A6 /* Pods */,
+				E37DF43A1EC38BB816085DACA5172057 /* Products */,
+				BCF326671E382A80F345DF7FB646D881 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85D26B9726E7B5E9DC98D856D2D43660 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAA614CA5473E9461137DF09EED96BF6 /* DRPLoadingSpinner.modulemap */,
+				50D1A1B7D6063ADA64AC516341AF9031 /* DRPLoadingSpinner.xcconfig */,
+				53F7D393518D35AC0B52B74BFE1C83FB /* DRPLoadingSpinner-dummy.m */,
+				6482C5BCB3E923FEFF3249FE61AB19F6 /* DRPLoadingSpinner-prefix.pch */,
+				2A6FD757095EFCCAE31839436EFE618F /* DRPLoadingSpinner-umbrella.h */,
+				1BD6E9DA565F288313510392C900C6A5 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DRPLoadingSpinner";
+			sourceTree = "<group>";
+		};
+		886584244B75B7E21C8DC278C0B786A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6413A1D4D0D4482AF160BD1FB89ED165 /* DRPLoadingSpinner */,
+				E4CED0B4CDBAB825D29497F3CDF46C97 /* KVLoading */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A26D916D9B8D110C1A05B629DC903D79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86B8AD5DC8F4BB45867DCAAFB1932730 /* Info.plist */,
+				4199C8339757F2D4DCDCE8BFE92C4A51 /* KVLoading.modulemap */,
+				5A010684AE3111BA41AB08B68C4C6ED0 /* KVLoading.xcconfig */,
+				CC6EA2A5047A45CF99C34FA22342C17A /* KVLoading-dummy.m */,
+				5BD9BAE6BD8906A26756EEEBA26A109B /* KVLoading-prefix.pch */,
+				8246F2425FF7DD29080B54E7B3EBA04F /* KVLoading-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVLoading";
+			sourceTree = "<group>";
+		};
+		BCF326671E382A80F345DF7FB646D881 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				204B907C0C068C3CD22AC7120DA0BCD8 /* Pods-cocoapodsapp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E37DF43A1EC38BB816085DACA5172057 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53BFEB8098C831085D76B9B550D8C2EC /* DRPLoadingSpinner.framework */,
+				BD512CAB6D6A902181CCBC8ADC935240 /* KVLoading.framework */,
+				1E494B58A303758D100EBE3EA73D39C8 /* Pods_cocoapodsapp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4CED0B4CDBAB825D29497F3CDF46C97 /* KVLoading */ = {
+			isa = PBXGroup;
+			children = (
+				260B2D0D6A143DB34878DBE53C7F6303 /* KVLoading.swift */,
+				A26D916D9B8D110C1A05B629DC903D79 /* Support Files */,
+			);
+			name = KVLoading;
+			path = KVLoading;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1BF65A28914DC54459FDF3FE2FB29552 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842E967CC936A32169050B8BD5773D75 /* Pods-cocoapodsapp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA4380F71671813597732007B29ADE91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA44E5D1D9DD85F9DAADABD0F66AACC /* DRPLoadingSpinner-umbrella.h in Headers */,
+				B27AE856E131E525655A11DE6B4FA1B4 /* DRPLoadingSpinner.h in Headers */,
+				9FEA4AC7189651F7A83E5680C47857B8 /* DRPRefreshControl.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA8B135A8666647DD16BC172DDFE02CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44D99EDC6922F7473CAD7A3952C60FA5 /* KVLoading-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10C34A98163922DD37D18B038C39A105 /* DRPLoadingSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D29C21C1306FBFC9EADADCA4D18B287 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner" */;
+			buildPhases = (
+				428CE298189F73A87E77365CBE50DDDA /* Sources */,
+				6075C705EBE96896E43DF6E7B850B3A2 /* Frameworks */,
+				AA4380F71671813597732007B29ADE91 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DRPLoadingSpinner;
+			productName = DRPLoadingSpinner;
+			productReference = 53BFEB8098C831085D76B9B550D8C2EC /* DRPLoadingSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9D49E8ACEA8497269F8880B990BA347 /* KVLoading */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C644ECE4E4B16B28270A33C092995885 /* Build configuration list for PBXNativeTarget "KVLoading" */;
+			buildPhases = (
+				0793BB48597629826CF8A39785CABF5A /* Sources */,
+				01D2D4FAD490241A1F99B2EFB2DD3503 /* Frameworks */,
+				CA8B135A8666647DD16BC172DDFE02CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVLoading;
+			productName = KVLoading;
+			productReference = BD512CAB6D6A902181CCBC8ADC935240 /* KVLoading.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC7EC00B67CEA44A2E392188D0C437C6 /* Pods-cocoapodsapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4304BD6C546FCF3A8B8C7269F04DA8F2 /* Build configuration list for PBXNativeTarget "Pods-cocoapodsapp" */;
+			buildPhases = (
+				8CFD9908544CEBAA6310568C3EA4B9D5 /* Sources */,
+				EF2E8C71245853E37E00298AB0310EE7 /* Frameworks */,
+				1BF65A28914DC54459FDF3FE2FB29552 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83B3BC3F97858137AD61C5CACC4004BB /* PBXTargetDependency */,
+				EF9C56F6EFC0C2BFE310AF12D704ED01 /* PBXTargetDependency */,
+			);
+			name = "Pods-cocoapodsapp";
+			productName = "Pods-cocoapodsapp";
+			productReference = 1E494B58A303758D100EBE3EA73D39C8 /* Pods_cocoapodsapp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E37DF43A1EC38BB816085DACA5172057 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10C34A98163922DD37D18B038C39A105 /* DRPLoadingSpinner */,
+				C9D49E8ACEA8497269F8880B990BA347 /* KVLoading */,
+				CC7EC00B67CEA44A2E392188D0C437C6 /* Pods-cocoapodsapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0793BB48597629826CF8A39785CABF5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FB981D8754F9C98969F477AFD69BC0 /* KVLoading-dummy.m in Sources */,
+				E57A6F6036388A1131D7038C915723E9 /* KVLoading.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		428CE298189F73A87E77365CBE50DDDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D093B87CC6A6B6FA2FCEF40C1AB9D1 /* DRPLoadingSpinner-dummy.m in Sources */,
+				2D89B95E4CACA97480F25E5D6A7BD039 /* DRPLoadingSpinner.m in Sources */,
+				9FA322BF5075259076CD56678370A7CF /* DRPRefreshControl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CFD9908544CEBAA6310568C3EA4B9D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF474E4395D029B42CE4FE99CA6D618A /* Pods-cocoapodsapp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83B3BC3F97858137AD61C5CACC4004BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DRPLoadingSpinner;
+			target = 10C34A98163922DD37D18B038C39A105 /* DRPLoadingSpinner */;
+			targetProxy = 96957CEEA90B8AC1F9F58CBA1CBD5BB5 /* PBXContainerItemProxy */;
+		};
+		EF9C56F6EFC0C2BFE310AF12D704ED01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVLoading;
+			target = C9D49E8ACEA8497269F8880B990BA347 /* KVLoading */;
+			targetProxy = 7AA8C78DCB3555F13EE4F199E8153318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00DB71A58CA8FB25F662771F355B15D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A686F3C0642F0CC12432C29CCD31E40 /* Pods-cocoapodsapp.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-cocoapodsapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cocoapodsapp/Pods-cocoapodsapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_cocoapodsapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63DEC14CA9E6E809F5C50A25AA555A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B568D5388C0EF95E76B908CBE8BC53 /* Pods-cocoapodsapp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-cocoapodsapp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cocoapodsapp/Pods-cocoapodsapp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_cocoapodsapp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66A847262FABB19BDB9EAB43972CCB7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D1A1B7D6063ADA64AC516341AF9031 /* DRPLoadingSpinner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRPLoadingSpinner/DRPLoadingSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRPLoadingSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRPLoadingSpinner/DRPLoadingSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DRPLoadingSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6840724826716C34CA5D2D81DA35D282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A010684AE3111BA41AB08B68C4C6ED0 /* KVLoading.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVLoading/KVLoading-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVLoading/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVLoading/KVLoading.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KVLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B058E7AD9ECB9F128BC1E9A8473B976F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A010684AE3111BA41AB08B68C4C6ED0 /* KVLoading.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVLoading/KVLoading-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVLoading/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVLoading/KVLoading.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = KVLoading;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC789C163BB2CB3129A339FF30E2305D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D1A1B7D6063ADA64AC516341AF9031 /* DRPLoadingSpinner.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DRPLoadingSpinner/DRPLoadingSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DRPLoadingSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DRPLoadingSpinner/DRPLoadingSpinner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DRPLoadingSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4304BD6C546FCF3A8B8C7269F04DA8F2 /* Build configuration list for PBXNativeTarget "Pods-cocoapodsapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DB71A58CA8FB25F662771F355B15D6 /* Debug */,
+				63DEC14CA9E6E809F5C50A25AA555A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D29C21C1306FBFC9EADADCA4D18B287 /* Build configuration list for PBXNativeTarget "DRPLoadingSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66A847262FABB19BDB9EAB43972CCB7F /* Debug */,
+				DC789C163BB2CB3129A339FF30E2305D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C644ECE4E4B16B28270A33C092995885 /* Build configuration list for PBXNativeTarget "KVLoading" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6840724826716C34CA5D2D81DA35D282 /* Debug */,
+				B058E7AD9ECB9F128BC1E9A8473B976F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

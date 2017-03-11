@@ -7,13 +7,21 @@
 //
 
 import UIKit
+import KVLoading
+import DRPLoadingSpinner
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
+        view.backgroundColor = UIColor.black
+        KVLoading.show()
+
+//        let spinner = DRPLoadingSpinner()
+//        view.addSubview(spinner)
+//        spinner.startAnimating()
+}
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
